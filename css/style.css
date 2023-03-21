@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif, serif;
+    text-rendering: optimizeSpeed;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 68px;
+    border-bottom: 1px solid #000000;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.header-list-left ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-list-left ul h1 a {
+    font-size: 14px;
+    padding: 24px;
+    font-weight: 500;
+    line-height: 68px;
+    color: #50C7C7;
+    text-decoration: none;
+    border-bottom: 3px solid #50C7C7;
+}
+
+.header-list-left ul li a {
+    font-size: 14px;
+    padding: 15px;
+    font-weight: 500;
+    line-height: 68px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-logo img {
+    display: flex;
+    line-height: 40px;
+    position: absolute;
+}
+
+.header-list-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-list-right-text {
+    padding: 9px;
+    border-radius: 4px;
+    background: none;
+    border: none;
+    outline: 0.1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    font-size: 14px;
+}
+
+.header-list-right-text i {
+    font-size: 15px;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.header-list-right-text input {
+    border: none;
+    outline: none;
+    background-color: #F2F2F2;
+}
+
+.header-list-right-text input::placeholder {
+    font-size: 15px;
+    background-color: #F2F2F2;
+}
+
+.header-list-right {
+    width: 350px;
+    justify-content: space-around;
+}
+
+.product {
+    margin-top: 100px;
+}
+
+.product-menu {
+    margin: 0px 150px;
+    display: flex;
+}
+
+.product-menu p a {
+    color: #c5c2c2;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.product-menu h3 {
+    font-size: 15px;
+    padding: 5px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.product-menu p {
+    color: #c5c2c2;
+}
+
+.product-title h1 {
+    margin: 0px 150px;
+    font-size: 40px;
+    text-decoration: none;
+}
